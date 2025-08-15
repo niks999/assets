@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - Calendar Conflict Auto-Decliner</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1><a href="index.html">Calendar Conflict Auto-Decliner</a></h1>
+                <div class="nav-links">
+                    <a href="index.html#features">Features</a>
+                    <a href="index.html#how-it-works">How It Works</a>
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html">Terms of Service</a>
+                    <a href="support.html" class="active">Support</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="support">
+            <div class="container">
+                <h2>Support</h2>
+                <p>Need help with Calendar Conflict Auto-Decliner? Find answers to common questions or contact us directly.</p>
+                
+                <h3>Quick Contact</h3>
+                <p>For technical support, bug reports, or general questions:</p>
+                <p><strong>Email:</strong> <a href="mailto:niks999@gmail.com">niks999@gmail.com</a></p>
+                <p>We typically respond within 1-2 business days.</p>
+
+                <h3>Installation & Setup</h3>
+                <h4>How to Install</h4>
+                <ol>
+                    <li>Visit the Google Workspace Marketplace</li>
+                    <li>Search for "Calendar Conflict Auto-Decliner"</li>
+                    <li>Click "Install" and grant the necessary permissions</li>
+                    <li>Open Google Calendar and look for the add-on in your sidebar</li>
+                    <li>Configure your settings in the add-on panel</li>
+                </ol>
+
+                <h4>Required Permissions</h4>
+                <p>The add-on requires these permissions to function:</p>
+                <ul>
+                    <li><strong>calendar.events</strong> - Read and modify calendar events for conflict detection</li>
+                    <li><strong>userinfo.email</strong> - Identify your email address for proper event handling</li>
+                    <li><strong>calendar.addons.execute</strong> - Function as a Google Calendar add-on</li>
+                    <li><strong>script.scriptapp</strong> - Manage automated triggers for scheduled checking</li>
+                </ul>
+
+                <h3>Frequently Asked Questions</h3>
+                
+                <h4>Q: How does the add-on detect conflicts?</h4>
+                <p>A: The add-on looks for overlapping time slots between your accepted meetings and pending invitations. It considers meetings conflicting if they overlap by more than the minimum duration you've configured (default: 15 minutes).</p>
+
+                <h4>Q: What are protected keywords?</h4>
+                <p>A: Protected keywords are terms that, when found in a meeting title or description, prevent the meeting from being automatically declined. Default keywords include "1:1", "one-on-one", "performance review", "urgent", and "important".</p>
+
+                <h4>Q: Can I customize which meetings are protected?</h4>
+                <p>A: Yes! You can:</p>
+                <ul>
+                    <li>Add or remove protected keywords</li>
+                    <li>Enable protection for meetings you've created</li>
+                    <li>Adjust the lookback and lookahead time windows</li>
+                    <li>Set minimum meeting duration thresholds</li>
+                </ul>
+
+                <h4>Q: What is "Dry Run" mode?</h4>
+                <p>A: Dry Run mode shows you which meetings would be declined without actually declining them. This helps you test your configuration before enabling automatic processing.</p>
+
+                <h4>Q: How often does the add-on check for conflicts?</h4>
+                <p>A: You can configure automatic checking to run every 15 minutes, hourly, or daily. You can also run manual checks anytime from the add-on interface.</p>
+
+                <h4>Q: Will the add-on decline important meetings?</h4>
+                <p>A: The add-on has multiple safeguards:</p>
+                <ul>
+                    <li>Protected keywords prevent declining important meetings</li>
+                    <li>You can protect meetings you've created</li>
+                    <li>Dry run mode lets you preview actions</li>
+                    <li>You can always manually accept meetings after they're declined</li>
+                </ul>
+
+                <h3>Troubleshooting</h3>
+
+                <h4>Add-on Not Appearing in Google Calendar</h4>
+                <ol>
+                    <li>Refresh your Google Calendar tab</li>
+                    <li>Check that you installed from the correct Google account</li>
+                    <li>Verify the add-on appears in your Google Workspace Admin Console (if applicable)</li>
+                    <li>Try logging out and back into Google Calendar</li>
+                </ol>
+
+                <h4>Conflicts Not Being Detected</h4>
+                <ol>
+                    <li>Check your lookback/lookahead day settings</li>
+                    <li>Verify the minimum meeting duration setting</li>
+                    <li>Ensure you have pending invitations (not just accepted meetings)</li>
+                    <li>Run a manual check to see if conflicts are detected</li>
+                </ol>
+
+                <h4>Settings Not Saving</h4>
+                <ol>
+                    <li>Make sure you click "Save Settings" after making changes</li>
+                    <li>Check that you have proper permissions granted</li>
+                    <li>Try refreshing the add-on panel</li>
+                    <li>Verify your Google account has sufficient storage</li>
+                </ol>
+
+                <h4>Automatic Processing Not Working</h4>
+                <ol>
+                    <li>Ensure "Enable Auto Processing" is turned on</li>
+                    <li>Check that you've set up a trigger schedule</li>
+                    <li>Verify the trigger appears in your Google Apps Script dashboard</li>
+                    <li>Make sure your Google account permissions haven't changed</li>
+                </ol>
+
+                <h3>Feature Requests & Bug Reports</h3>
+                <p>We welcome feedback to improve the add-on! When reporting issues, please include:</p>
+                <ul>
+                    <li>A detailed description of the problem</li>
+                    <li>Steps to reproduce the issue</li>
+                    <li>Your browser and operating system</li>
+                    <li>Screenshots (if applicable)</li>
+                    <li>Your add-on configuration settings</li>
+                </ul>
+
+                <h3>Privacy & Security Questions</h3>
+                <p>For questions about data handling, privacy, or security:</p>
+                <ul>
+                    <li>Review our <a href="privacy.html">Privacy Policy</a></li>
+                    <li>Check our <a href="terms.html">Terms of Service</a></li>
+                    <li>Contact us directly for specific concerns</li>
+                </ul>
+
+                <h3>Uninstalling the Add-on</h3>
+                <p>To remove the add-on:</p>
+                <ol>
+                    <li>Go to your Google Workspace Marketplace</li>
+                    <li>Find "Calendar Conflict Auto-Decliner" in your installed apps</li>
+                    <li>Click "Uninstall" or "Remove"</li>
+                    <li>Your configuration data will be automatically deleted</li>
+                </ol>
+
+                <div class="back-link">
+                    <a href="index.html">&larr; Back to Home</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Calendar Conflict Auto-Decliner. All rights reserved.</p>
+            <p><a href="privacy.html">Privacy Policy</a> | <a href="terms.html">Terms of Service</a> | <a href="support.html">Support</a></p>
+        </div>
+    </footer>
+</body>
+</html>
